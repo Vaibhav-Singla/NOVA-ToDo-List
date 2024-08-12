@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock title %} 
+
+{% block body %}
+<div class="container my-3">
+    <h2>About MyTodo App</h2>
+    <p>This is a simple Todo application built with Flask. You can use it to keep track of your daily tasks.</p>
+    
+    <h3>How to Use the App</h3>
+    <ul>
+        <li><strong>Add a Todo:</strong> Go to the Home page, enter a title and description for your todo, and click "Submit".</li>
+        <li><strong>View Todos:</strong> All your todos will be listed on the Home page under "Your Todos".</li>
+        <li><strong>Update a Todo:</strong> Click on the "Update" button next to a todo to modify its title or description.</li>
+        <li><strong>Delete a Todo:</strong> Click on the "Delete" button next to a todo to remove it from the list.</li>
+        <li><strong>Search:</strong> Use the search bar at the top to find specific todos by title or description.</li>
+    </ul>
+</div>
+{% endblock body %}
